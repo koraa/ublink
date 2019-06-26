@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO3401A
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP IRF740
+D 50V Vds, 30A Id, N-Channel Power MOSFET, TO-220
+K N-Channel Power MOSFET
+F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
+$ENDCMP
+#
+$CMP JUC-31F
+D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP KF301-5.0-2P
+D Generic screw terminal, single row, 01x02
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP KF301-5.0-3P
+D Generic screw terminal, single row, 01x03
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP KF301-5.0-4P
+D Generic screw terminal, single row, 01x04
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP KF301-5.0-5P
+D Generic screw terminal, single row, 01x05
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP MultiMos
+D 50V Vds, 30A Id, N-Channel Power MOSFET, TO-220
+K N-Channel Power MOSFET
+F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
+$ENDCMP
+#
+$CMP RJ12
+D RJ12 connector with 2 shield pins
+K RJ12 connector
+$ENDCMP
+#
+$CMP STN3NF06L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+#End Doc Library

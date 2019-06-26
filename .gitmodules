@@ -1,0 +1,6 @@
+[submodule "hardware/vendor/BB-CH340T"]
+	path = hardware/vendor/BB-CH340T
+	url = https://github.com/OLIMEX/BB-CH340T
+[submodule "hardware/vendor/kicad-ESP8266"]
+	path = hardware/vendor/kicad-ESP8266
+	url = https://github.com/jdunmire/kicad-ESP8266

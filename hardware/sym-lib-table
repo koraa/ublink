@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ublink)(type Legacy)(uri ${KIPRJMOD}/ublink.lib)(options "")(descr ""))
+  (lib (name usb_mini_b)(type Legacy)(uri ${KIPRJMOD}/vendor/BB-CH340T/usb_mini_b.lib)(options "")(descr ""))
+  (lib (name bb-ch340t-cache)(type Legacy)(uri ${KIPRJMOD}/vendor/BB-CH340T/bb-ch340t-cache.lib)(options "")(descr ""))
+  (lib (name bb-ch340t)(type Legacy)(uri ${KIPRJMOD}/vendor/BB-CH340T/bb-ch340t.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri ${KIPRJMOD}/vendor/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
+)
