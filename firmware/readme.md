@@ -39,3 +39,10 @@ E.g. the following command could be used to install the toolchain at a custom lo
 ```sh
 IDF_PATH="$HOME/esp-idf" IDF_TOOLS_PATH="$HOME/esp-idf/toolchain" ./build.sh setup_toolchain
 ```
+
+## Todo
+
+* Set up LED PWM
+* WIFI
+* CLI
+
