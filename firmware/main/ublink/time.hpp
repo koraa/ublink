@@ -4,6 +4,7 @@
 
 namespace ublink {
 
+/// Central time keeping
 class time_driver {
 public:
 

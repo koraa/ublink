@@ -26,12 +26,14 @@ struct print_trait<flush_t> {
 
 inline void print() {}
 
+/// Just forwards to std::cout but with a more convenient syntax
 template<typename T, typename... Args>
 void print(T &&v, Args&&... args) {
   print_trait<T>::print(std::forward<T>(v));
   print(std::forward<Args>(args)...);
 }
 
+/// Just forwards to std::cout but with a more convenient syntax and a new line
 template<typename... Args>
 void println(Args&&... args) {
   print(std::forward<Args>(args)..., ret);

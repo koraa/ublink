@@ -4,6 +4,9 @@
 
 namespace ublink {
 
+/// This is pretty much just a wrapper around a gpio;
+/// turns the relais on/off (usually to activate/deactivate
+/// the external LED power supply)
 class relais_driver {
 public:
   const gpio_num_t gpio;
