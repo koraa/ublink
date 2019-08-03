@@ -45,4 +45,3 @@ IDF_PATH="$HOME/esp-idf" IDF_TOOLS_PATH="$HOME/esp-idf/toolchain" ./build.sh set
 * Set up LED PWM
 * WIFI
 * CLI
-
