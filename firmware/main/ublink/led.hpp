@@ -23,8 +23,6 @@ public:
     apply();
   }
 
-  void tick() { /* pass */ }
-
   /// Call this to apply any changes made to the timer configuration
   /// If timer_num or speed_mode have been changed, apply() should be
   /// called on all led pwm drivers too
@@ -48,8 +46,6 @@ public:
 
     apply();
   }
-
-  void tick() { /* pass */ }
 
   /// Call this to apply any changes made to the led pwm channel config
 	void apply() {
