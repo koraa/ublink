@@ -76,24 +76,24 @@ $EndComp
 $Comp
 L Regulator_Linear:LM1117-3.3 U1
 U 1 1 5B3B3595
-P 2800 2000
-F 0 "U1" H 3100 1900 50  0000 C CNN
-F 1 "3.3V3 Regul" H 2600 2150 50  0000 L CNN
-F 2 "ublink:lm-1117" H 2800 2000 50  0001 C CNN
-F 3 "" H 2800 2000 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/100PCS-LOT-Original-AMS1117-3-3-AMS1117-3-3V-AMS1117-LM1117-1117-Voltage-Regulator-We-only/32816744520.html?spm=2114.search0104.3.51.45dc50202Wt845&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=5386bc84-a7c8-4e75-afc9-b81edc209778-7&algo_pvid=5386bc84-a7c8-4e75-afc9-b81edc209778&priceBeautifyAB=0" H 2800 2000 50  0001 C CNN "Buy"
-	1    2800 2000
+P 2200 1300
+F 0 "U1" H 2500 1200 50  0000 C CNN
+F 1 "3.3V3 Regul" H 2000 1450 50  0000 L CNN
+F 2 "ublink:lm-1117" H 2200 1300 50  0001 C CNN
+F 3 "" H 2200 1300 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/100PCS-LOT-Original-AMS1117-3-3-AMS1117-3-3V-AMS1117-LM1117-1117-Voltage-Regulator-We-only/32816744520.html?spm=2114.search0104.3.51.45dc50202Wt845&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=5386bc84-a7c8-4e75-afc9-b81edc209778-7&algo_pvid=5386bc84-a7c8-4e75-afc9-b81edc209778&priceBeautifyAB=0" H 2200 1300 50  0001 C CNN "Buy"
+	1    2200 1300
 	1    0    0    -1  
 $EndComp
-Text Label 1550 2100 0    60   ~ 0
+Text Label 950  1400 0    60   ~ 0
 GND
-Text GLabel 3500 1650 2    60   Input ~ 0
+Text GLabel 2900 950  2    60   Input ~ 0
 5V
-Text GLabel 3500 2000 2    60   Input ~ 0
+Text GLabel 2900 1300 2    60   Input ~ 0
 3V3
-Text GLabel 3500 2500 2    60   Input ~ 0
+Text GLabel 2900 1800 2    60   Input ~ 0
 GND
-Text GLabel 6300 9850 0    60   Input ~ 0
+Text GLabel 5450 9250 0    60   Input ~ 0
 RELAIS_CTRL
 Text GLabel 10350 1450 0    60   Input ~ 0
 R_CTRL
@@ -114,90 +114,90 @@ GND
 $Comp
 L ublink:JUC-31F SW3
 U 1 1 5B5627E7
-P 6750 9250
-F 0 "SW3" V 6600 9400 50  0000 C CNN
-F 1 "JUC-31F" H 6750 9100 50  0000 C CNN
-F 2 "JUC-31F" H 6750 9350 50  0001 C CNN
-F 3 "" H 6750 9350 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/50PCS-JUC-31F-KSD-01F-40-150-c-degree-celsius-thermal-control-temperature-protection-switch-temperature/32888686062.html?spm=2114.search0104.3.158.61307fb7O5n547&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10151_10065_10321_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=3c225824-42e3-4d83-819d-0a9f24896cd4-25&algo_pvid=3c225824-42e3-4d83-819d-0a9f24896cd4&transAbTest=ae803_2&priceBeautifyAB=0" H 6750 9250 60  0001 C CNN "Buy"
-	1    6750 9250
+P 5900 8650
+F 0 "SW3" V 5750 8800 50  0000 C CNN
+F 1 "JUC-31F" H 5900 8500 50  0000 C CNN
+F 2 "JUC-31F" H 5900 8750 50  0001 C CNN
+F 3 "" H 5900 8750 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/50PCS-JUC-31F-KSD-01F-40-150-c-degree-celsius-thermal-control-temperature-protection-switch-temperature/32888686062.html?spm=2114.search0104.3.158.61307fb7O5n547&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10151_10065_10321_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=3c225824-42e3-4d83-819d-0a9f24896cd4-25&algo_pvid=3c225824-42e3-4d83-819d-0a9f24896cd4&transAbTest=ae803_2&priceBeautifyAB=0" H 5900 8650 60  0001 C CNN "Buy"
+	1    5900 8650
 	0    1    -1   0   
 $EndComp
-Text GLabel 6750 10350 3    60   Input ~ 0
+Text GLabel 5900 9750 3    60   Input ~ 0
 GND
 $Comp
 L Device:R R7
 U 1 1 5B57514B
-P 6400 10100
-F 0 "R7" V 6480 10100 50  0000 C CNN
-F 1 "10k" V 6400 10100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6330 10100 50  0001 C CNN
-F 3 "" H 6400 10100 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/MCIGICM-500pcs-1-0805-smd-chip-resistor-resistors-0R-10M-1-8W-1K-4-7K-5/32840478325.html?spm=2114.search0104.3.2.4206106afu0n5i&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=3c7f9879-8d86-4b81-9cd7-4c9cff3c0b6e-0&algo_pvid=3c7f9879-8d86-4b81-9cd7-4c9cff3c0b6e&transAbTest=ae803_2&priceBeautifyAB=0" V 6400 10100 60  0001 C CNN "Buy"
-	1    6400 10100
+P 5550 9500
+F 0 "R7" V 5630 9500 50  0000 C CNN
+F 1 "10k" V 5550 9500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5480 9500 50  0001 C CNN
+F 3 "" H 5550 9500 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/MCIGICM-500pcs-1-0805-smd-chip-resistor-resistors-0R-10M-1-8W-1K-4-7K-5/32840478325.html?spm=2114.search0104.3.2.4206106afu0n5i&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=3c7f9879-8d86-4b81-9cd7-4c9cff3c0b6e-0&algo_pvid=3c7f9879-8d86-4b81-9cd7-4c9cff3c0b6e&transAbTest=ae803_2&priceBeautifyAB=0" V 5550 9500 60  0001 C CNN "Buy"
+	1    5550 9500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 8050 1    60   Input ~ 0
+Text GLabel 5900 7450 1    60   Input ~ 0
 5V
 $Comp
 L ublink:CH340G U2
 U 1 1 5B7B9EA3
-P 3200 6450
-F 0 "U2" H 3450 7250 60  0000 C CNN
-F 1 "CH340G" H 3050 7250 60  0000 C CNN
-F 2 "ublink:CH403G" H 3850 5600 60  0001 C CNN
-F 3 "" H 3850 5600 60  0001 C CNN
-F 4 "https://www.aliexpress.com/item/CH34-SOP16-chip-USB-to-serial-chip-patch-Originais-IC-R3-Board-USB-Livre-Cabo-CH340G/32859842525.html?spm=2114.search0104.3.151.98d16f535fZJxT&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=024b6b26-98d3-45bd-8712-1ece4d911534-24&algo_pvid=024b6b26-98d3-45bd-8712-1ece4d911534" H 3200 6450 50  0001 C CNN "Buy"
-	1    3200 6450
+P 2850 4800
+F 0 "U2" H 3100 5600 60  0000 C CNN
+F 1 "CH340G" H 2700 5600 60  0000 C CNN
+F 2 "ublink:CH403G" H 3500 3950 60  0001 C CNN
+F 3 "" H 3500 3950 60  0001 C CNN
+F 4 "https://www.aliexpress.com/item/CH34-SOP16-chip-USB-to-serial-chip-patch-Originais-IC-R3-Board-USB-Livre-Cabo-CH340G/32859842525.html?spm=2114.search0104.3.151.98d16f535fZJxT&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=024b6b26-98d3-45bd-8712-1ece4d911534-24&algo_pvid=024b6b26-98d3-45bd-8712-1ece4d911534" H 2850 4800 50  0001 C CNN "Buy"
+	1    2850 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 5850 0    60   Input ~ 0
+Text GLabel 1700 4200 0    60   Input ~ 0
 GND
-Text GLabel 2450 6050 0    60   Input ~ 0
+Text GLabel 2100 4400 0    60   Input ~ 0
 RX
-Text GLabel 2650 5950 0    60   Input ~ 0
+Text GLabel 2300 4300 0    60   Input ~ 0
 TX
-Text GLabel 3750 6050 2    60   Input ~ 0
+Text GLabel 3400 4400 2    60   Input ~ 0
 RTS
-Text GLabel 3750 6550 2    60   Input ~ 0
+Text GLabel 3400 4900 2    60   Input ~ 0
 CTS
-Text GLabel 2000 7150 0    60   Input ~ 0
+Text GLabel 1650 5500 0    60   Input ~ 0
 GND
 $Comp
 L Device:C C3
 U 1 1 5B7BF90A
-P 2700 6950
-F 0 "C3" H 2750 7050 50  0000 L CNN
-F 1 "22p" H 2750 6850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2738 6800 50  0001 C CNN
-F 3 "" H 2700 6950 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-SMD-Thick-Film-Chip-Multilayer-Ceramic-Capacitor/32818383178.html?spm=2114.search0104.3.8.36685b2a9CYmCn&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=0e390b2f-ed58-4752-9c45-00d107da701e-1&algo_pvid=0e390b2f-ed58-4752-9c45-00d107da701e&transAbTest=ae803_2&priceBeautifyAB=0" H 2700 6950 60  0001 C CNN "Buy"
-	1    2700 6950
+P 2350 5300
+F 0 "C3" H 2400 5400 50  0000 L CNN
+F 1 "22p" H 2400 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2388 5150 50  0001 C CNN
+F 3 "" H 2350 5300 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-SMD-Thick-Film-Chip-Multilayer-Ceramic-Capacitor/32818383178.html?spm=2114.search0104.3.8.36685b2a9CYmCn&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=0e390b2f-ed58-4752-9c45-00d107da701e-1&algo_pvid=0e390b2f-ed58-4752-9c45-00d107da701e&transAbTest=ae803_2&priceBeautifyAB=0" H 2350 5300 60  0001 C CNN "Buy"
+	1    2350 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 5650 1    60   Input ~ 0
+Text GLabel 1250 4000 1    60   Input ~ 0
 5V
 $Comp
 L Device:C C1
 U 1 1 5B7C8F2C
-P 2100 6950
-F 0 "C1" H 2150 7050 50  0000 L CNN
-F 1 "22p" H 2150 6850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2138 6800 50  0001 C CNN
-F 3 "" H 2100 6950 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-SMD-Thick-Film-Chip-Multilayer-Ceramic-Capacitor/32818383178.html?spm=2114.search0104.3.8.36685b2a9CYmCn&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=0e390b2f-ed58-4752-9c45-00d107da701e-1&algo_pvid=0e390b2f-ed58-4752-9c45-00d107da701e&transAbTest=ae803_2&priceBeautifyAB=0" H 2100 6950 60  0001 C CNN "Buy"
-	1    2100 6950
+P 1750 5300
+F 0 "C1" H 1800 5400 50  0000 L CNN
+F 1 "22p" H 1800 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1788 5150 50  0001 C CNN
+F 3 "" H 1750 5300 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-SMD-Thick-Film-Chip-Multilayer-Ceramic-Capacitor/32818383178.html?spm=2114.search0104.3.8.36685b2a9CYmCn&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=0e390b2f-ed58-4752-9c45-00d107da701e-1&algo_pvid=0e390b2f-ed58-4752-9c45-00d107da701e&transAbTest=ae803_2&priceBeautifyAB=0" H 1750 5300 60  0001 C CNN "Buy"
+	1    1750 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 6800 3    60   Input ~ 0
+Text GLabel 800  5150 3    60   Input ~ 0
 GND
-Text GLabel 6300 8900 2    60   Input ~ 0
+Text GLabel 5450 8300 2    60   Input ~ 0
 AC1
-Text GLabel 6100 8900 0    60   Input ~ 0
+Text GLabel 5250 8300 0    60   Input ~ 0
 AC2
-Text GLabel 6300 7850 2    60   Input ~ 0
+Text GLabel 5450 7250 2    60   Input ~ 0
 AC1
-Text GLabel 6100 7850 0    60   Input ~ 0
+Text GLabel 5250 7250 0    60   Input ~ 0
 AC2
 Wire Wire Line
 	10300 1650 10450 1650
@@ -271,12 +271,12 @@ Wire Wire Line
 	11300 3300 11450 3300
 Connection ~ 11300 3300
 Wire Wire Line
-	2800 2300 2800 2500
+	2200 1600 2200 1800
 Wire Wire Line
-	1500 2100 1800 2100
-Connection ~ 2800 2500
+	900  1400 1200 1400
+Connection ~ 2200 1800
 Wire Wire Line
-	3100 2000 3300 2000
+	2500 1300 2700 1300
 Wire Wire Line
 	10400 4900 10450 4900
 Wire Wire Line
@@ -294,33 +294,33 @@ Wire Wire Line
 Wire Wire Line
 	9950 2800 10000 2800
 Wire Wire Line
-	1550 6350 1600 6350
+	1200 4700 1250 4700
 Wire Wire Line
-	1550 6250 1700 6250
+	1200 4600 1350 4600
 Wire Wire Line
-	2100 6450 2700 6450
+	1750 4800 2350 4800
 Wire Wire Line
-	2550 6700 2700 6700
+	2200 5050 2350 5050
 Wire Wire Line
-	2100 6450 2100 6700
+	1750 4800 1750 5050
 Wire Wire Line
-	2250 6700 2100 6700
-Connection ~ 2100 6700
+	1900 5050 1750 5050
+Connection ~ 1750 5050
 Wire Wire Line
-	2700 6550 2700 6700
-Connection ~ 2700 6700
+	2350 4900 2350 5050
+Connection ~ 2350 5050
 Wire Wire Line
-	2100 7100 2100 7150
+	1750 5450 1750 5500
 Wire Wire Line
-	2700 7150 2700 7100
+	2350 5500 2350 5450
 Wire Wire Line
-	1550 6050 1600 6050
+	1200 4400 1250 4400
 Wire Wire Line
-	2450 6050 2700 6050
+	2100 4400 2350 4400
 Wire Wire Line
-	2700 5950 2650 5950
-Connection ~ 6250 8900
-Text Notes 2850 1450 0    60   ~ 12
+	2350 4300 2300 4300
+Connection ~ 5400 8300
+Text Notes 2250 750  0    60   ~ 12
 MAIN POWER SUPPLY
 Wire Notes Line
 	9550 750  15850 750 
@@ -332,64 +332,64 @@ Wire Notes Line
 	9550 5850 9550 750 
 Text Notes 15250 950  0    60   ~ 12
 LED DRIVER\n
-Text Notes 3550 5350 0    60   ~ 12
+Text Notes 3200 3700 0    60   ~ 12
 USB UART
 Wire Notes Line
-	900  7450 900  5200
-Text Notes 7150 7600 0    60   ~ 12
+	550  5800 550  3550
+Text Notes 6300 7000 0    60   ~ 12
 VAC CIRCUIT BREAKER\nTHERMAL PROTECTION\n
 Wire Notes Line
-	8200 7350 8200 10800
+	7350 6750 7350 10200
 Wire Notes Line
-	5450 10800 5450 7350
+	4600 10200 4600 6750
 Wire Wire Line
-	6750 10250 6400 10250
+	5900 9650 5550 9650
 Wire Wire Line
-	6750 10050 6750 10250
-Connection ~ 6750 10250
+	5900 9450 5900 9650
+Connection ~ 5900 9650
 Wire Wire Line
-	3750 6550 3700 6550
+	3400 4900 3350 4900
 $Comp
 L Device:CP1 100u1
 U 1 1 5B7FDCC2
-P 2350 2250
-F 0 "100u1" H 2375 2350 50  0000 L CNN
-F 1 "CP1" H 2375 2150 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 2350 2250 50  0001 C CNN
-F 3 "" H 2350 2250 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 2350 2250 60  0001 C CNN "Buy"
-	1    2350 2250
+P 1750 1550
+F 0 "100u1" H 1775 1650 50  0000 L CNN
+F 1 "CP1" H 1775 1450 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 1750 1550 50  0001 C CNN
+F 3 "" H 1750 1550 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 1750 1550 60  0001 C CNN "Buy"
+	1    1750 1550
 	1    0    0    -1  
 $EndComp
-Connection ~ 2350 2500
+Connection ~ 1750 1800
 Wire Wire Line
-	2350 2400 2350 2500
+	1750 1700 1750 1800
 $Comp
 L Device:CP1 100u2
 U 1 1 5B8003FB
-P 3300 2250
-F 0 "100u2" H 3325 2350 50  0000 L CNN
-F 1 "CP2" H 3325 2150 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 3300 2250 50  0001 C CNN
-F 3 "" H 3300 2250 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 3300 2250 60  0001 C CNN "Buy"
-	1    3300 2250
+P 2700 1550
+F 0 "100u2" H 2725 1650 50  0000 L CNN
+F 1 "CP2" H 2725 1450 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 2700 1550 50  0001 C CNN
+F 3 "" H 2700 1550 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 2700 1550 60  0001 C CNN "Buy"
+	1    2700 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2000 3300 2100
+	2700 1300 2700 1400
 Wire Wire Line
-	3300 2500 3300 2400
-Connection ~ 3300 2000
-Connection ~ 3300 2500
+	2700 1800 2700 1700
+Connection ~ 2700 1300
+Connection ~ 2700 1800
 Wire Notes Line
-	1200 2650 3850 2650
+	600  1950 3250 1950
 Wire Notes Line
-	1200 2650 1200 1300
+	600  1950 600  600 
 Wire Notes Line
-	1200 1300 3850 1300
+	600  600  3250 600 
 Wire Notes Line
-	3850 1300 3850 2650
+	3250 600  3250 1950
 $Comp
 L ublink:MultiMos Q2
 U 1 1 5B809BE7
@@ -403,37 +403,37 @@ F 4 "https://www.aliexpress.com/item/100pcs-new-RU6099R-RU6099-mos-tube-120A-60V
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 6700 1150 6700
+	900  5050 800  5050
 Wire Wire Line
-	1150 6700 1150 6650
+	800  5050 800  5000
 Wire Wire Line
-	3500 2500 3300 2500
+	2900 1800 2700 1800
 Wire Wire Line
-	1800 2500 1800 2100
-Text Label 1550 2000 0    60   ~ 0
+	1200 1800 1200 1400
+Text Label 950  1300 0    60   ~ 0
 5V
 Wire Wire Line
-	1500 2000 2350 2000
+	900  1300 1750 1300
 Wire Wire Line
-	2350 1650 2350 2000
-Connection ~ 2350 2000
+	1750 950  1750 1300
+Connection ~ 1750 1300
 Wire Wire Line
-	2350 1650 3500 1650
+	1750 950  2900 950 
 $Comp
 L bb-ch340t-cache:Crystal Y1
 U 1 1 5B8190C6
-P 2400 6700
-F 0 "Y1" H 2400 6850 50  0000 C CNN
-F 1 "12Mhz" H 2400 6550 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm_HandSoldering" H 2400 6700 50  0001 C CNN
-F 3 "" H 2400 6700 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/50PCS-5032-8M-12M-16M-20M-24M-25M-27M-8MHZ-12MHZ-16MHZ-20MHZ-24MHZ-25MHZ-27MHZ/32854932856.html?spm=2114.search0104.3.54.ff3e2450DPPxXj&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10065_10068_10547_318_10548_10696_10084_10083_10618_452_10304_10307_10820_532_10821_10302_204_10843_10059_10884_10887_100031_10319_10103,searchweb201603_1,ppcSwitch_0&algo_expid=e4b5d895-a7f5-4a7f-82a7-0bc6f1a2c32f-8&algo_pvid=e4b5d895-a7f5-4a7f-82a7-0bc6f1a2c32f&priceBeautifyAB=0" H 2400 6700 50  0001 C CNN "Buy"
-	1    2400 6700
+P 2050 5050
+F 0 "Y1" H 2050 5200 50  0000 C CNN
+F 1 "12Mhz" H 2050 4900 50  0000 C CNN
+F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm_HandSoldering" H 2050 5050 50  0001 C CNN
+F 3 "" H 2050 5050 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/50PCS-5032-8M-12M-16M-20M-24M-25M-27M-8MHZ-12MHZ-16MHZ-20MHZ-24MHZ-25MHZ-27MHZ/32854932856.html?spm=2114.search0104.3.54.ff3e2450DPPxXj&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10065_10068_10547_318_10548_10696_10084_10083_10618_452_10304_10307_10820_532_10821_10302_204_10843_10059_10884_10887_100031_10319_10103,searchweb201603_1,ppcSwitch_0&algo_expid=e4b5d895-a7f5-4a7f-82a7-0bc6f1a2c32f-8&algo_pvid=e4b5d895-a7f5-4a7f-82a7-0bc6f1a2c32f&priceBeautifyAB=0" H 2050 5050 50  0001 C CNN "Buy"
+	1    2050 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 7150 2100 7150
-Connection ~ 2100 7150
+	1650 5500 1750 5500
+Connection ~ 1750 5500
 Wire Wire Line
 	11450 1450 11450 1500
 Wire Wire Line
@@ -443,35 +443,35 @@ Wire Wire Line
 Wire Wire Line
 	11300 3300 11300 4500
 Wire Wire Line
-	2800 2500 2350 2500
+	2200 1800 1750 1800
 Wire Wire Line
-	2100 6700 2100 6800
+	1750 5050 1750 5150
 Wire Wire Line
-	2700 6700 2700 6800
+	2350 5050 2350 5150
 Wire Wire Line
-	6750 10250 6750 10350
+	5900 9650 5900 9750
 Wire Wire Line
-	2350 2500 1800 2500
+	1750 1800 1200 1800
 Wire Wire Line
-	3300 2000 3500 2000
+	2700 1300 2900 1300
 Wire Wire Line
-	3300 2500 2800 2500
+	2700 1800 2200 1800
 Wire Wire Line
-	2350 2000 2500 2000
+	1750 1300 1900 1300
 Wire Wire Line
-	2350 2000 2350 2100
+	1750 1300 1750 1400
 Wire Wire Line
-	2100 7150 2700 7150
+	1750 5500 2350 5500
 $Comp
 L Connector:USB_B_Micro J1
 U 1 1 5BB130DE
-P 1250 6250
-F 0 "J1" H 1305 6717 50  0000 C CNN
-F 1 "USB_B_Micro" H 1305 6626 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 1400 6200 50  0001 C CNN
-F 3 "~" H 1400 6200 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/10PCS-M047-Micro-USB-Connector-2Feet-SMT-Sink-1-6-Power-Charging-Phone-USB-jack-2/32857780624.html?spm=2114.search0104.3.60.11584f03RS7Dnm&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=92fba284-4fad-4b49-bd62-109726b48a67-11&algo_pvid=92fba284-4fad-4b49-bd62-109726b48a67&priceBeautifyAB=0" H 1250 6250 50  0001 C CNN "Buy"
-	1    1250 6250
+P 900 4600
+F 0 "J1" H 955 5067 50  0000 C CNN
+F 1 "USB_B_Micro" H 955 4976 50  0000 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 1050 4550 50  0001 C CNN
+F 3 "~" H 1050 4550 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/10PCS-M047-Micro-USB-Connector-2Feet-SMT-Sink-1-6-Power-Charging-Phone-USB-jack-2/32857780624.html?spm=2114.search0104.3.60.11584f03RS7Dnm&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=92fba284-4fad-4b49-bd62-109726b48a67-11&algo_pvid=92fba284-4fad-4b49-bd62-109726b48a67&priceBeautifyAB=0" H 900 4600 50  0001 C CNN "Buy"
+	1    900  4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -527,17 +527,16 @@ Wire Wire Line
 Connection ~ 11300 2200
 Wire Wire Line
 	11450 2200 11300 2200
-NoConn ~ 3700 6450
-NoConn ~ 3700 6350
-NoConn ~ 3700 6250
-NoConn ~ 3700 6150
+NoConn ~ 3350 4800
+NoConn ~ 3350 4700
+NoConn ~ 3350 4600
 Wire Wire Line
 	11100 1850 11450 1850
 Connection ~ 11450 1850
-NoConn ~ 3700 5950
-NoConn ~ 1550 6450
+NoConn ~ 3350 4300
+NoConn ~ 1200 4800
 Wire Wire Line
-	3750 6050 3700 6050
+	3400 4400 3350 4400
 Wire Wire Line
 	12100 3400 12100 3550
 Wire Wire Line
@@ -545,24 +544,24 @@ Wire Wire Line
 Wire Wire Line
 	11450 4500 11300 4500
 Wire Wire Line
-	6400 9950 6400 9850
+	5550 9350 5550 9250
 Wire Wire Line
-	6400 9850 6450 9850
-Connection ~ 6400 9850
+	5550 9250 5600 9250
+Connection ~ 5550 9250
 $Comp
 L ublink:STN3NF06L Q1
 U 1 1 5B81050C
-P 6650 9850
-F 0 "Q1" V 7000 9650 50  0000 L CNN
-F 1 "STN3NF06L" V 6900 9650 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6850 9775 50  0001 L CIN
-F 3 "" H 6650 9850 50  0001 L CNN
-F 4 "https://www.aliexpress.com/item/STN3NF06L-3NF06L-SOT223-Original-authentic-and-new-in-stock-Free-Shipping-IC/32446665165.html?spm=2114.search0104.3.53.f913334dUIO65e&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=a75528cf-7ad2-4e5c-b83d-4323b3650f57-8&algo_pvid=a75528cf-7ad2-4e5c-b83d-4323b3650f57&priceBeautifyAB=0" V 6650 9850 50  0001 C CNN "Buy"
-	1    6650 9850
-	1    0    0    1   
+P 5800 9250
+F 0 "Q1" V 6150 9050 50  0000 L CNN
+F 1 "STN3NF06L" V 6050 9050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6000 9175 50  0001 L CIN
+F 3 "" H 5800 9250 50  0001 L CNN
+F 4 "https://www.aliexpress.com/item/STN3NF06L-3NF06L-SOT223-Original-authentic-and-new-in-stock-Free-Shipping-IC/32446665165.html?spm=2114.search0104.3.53.f913334dUIO65e&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=a75528cf-7ad2-4e5c-b83d-4323b3650f57-8&algo_pvid=a75528cf-7ad2-4e5c-b83d-4323b3650f57&priceBeautifyAB=0" V 5800 9250 50  0001 C CNN "Buy"
+	1    5800 9250
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 9850 6400 9850
+	5450 9250 5550 9250
 Wire Wire Line
 	11300 1000 11300 2200
 Wire Wire Line
@@ -709,13 +708,13 @@ F 3 "~" H 13200 4350 50  0001 C CNN
 	1    13200 4350
 	1    0    0    -1  
 $EndComp
-Text Label 1700 6250 0    50   ~ 0
+Text Label 1350 4600 0    50   ~ 0
 USB_D+
-Text Label 1800 6350 0    50   ~ 0
+Text Label 1450 4700 0    50   ~ 0
 USB_D-
-Text Label 2200 6450 0    50   ~ 0
+Text Label 1850 4800 0    50   ~ 0
 XI
-Text Label 2600 6650 0    50   ~ 0
+Text Label 2250 5000 0    50   ~ 0
 XO
 Text Label 12700 1000 0    50   ~ 0
 LED_VCC
@@ -750,99 +749,99 @@ Wire Wire Line
 Wire Wire Line
 	12100 1200 13050 1200
 Wire Wire Line
-	1600 5650 1600 6050
+	1250 4000 1250 4400
 Wire Wire Line
 	13100 1600 13100 1000
-Text Notes 950  7800 0    50   ~ 0
+Text Notes 600  6150 0    50   ~ 0
 This provides acess to the controller's UART0 via mini usb;\nwe also use the power supply from USB so this can be used\nto flash/confgure the controller without attaching it to mains power.\n(Low effort for mass configuration).\n
-Text Notes 4100 9000 0    50   ~ 0
+Text Notes 6250 8700 0    50   ~ 0
 Thermal protection\n(LED driver power supply\nis turned off when this\nis too hot)
-Text Notes 8300 9800 0    50   ~ 0
+Text Notes 4650 10700 0    50   ~ 0
 Relays to switch off LED power supply.\nThis has two functions:\n* Saving power when the LED is black\n* The LED power supply is not very trustworthy; by\n  severing it from mains power we do no have to be afraid of fires
 Text Notes 13200 3400 0    50   ~ 0
 This is the main LED driver!\nThe leds are attached to R_LED/G_…;\nThe external led power supply is\n  attached to R_GND/G…\nThe external power supply usually\n  provides a common kathode (something like 30V or 40V), but no \n  common anode (Ground). Hence the design with the optocouplers\n  and voltage deviders).\nThe design should work well for voltage differentials\n  between 15V and 60V (the zener diode provides\n  overvoltage protection).
 $Comp
 L Device:C 10u1
 U 1 1 5BE76356
-P 4250 6000
-F 0 "10u1" H 4275 6100 50  0000 L CNN
-F 1 "C8" H 4275 5900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4250 6000 50  0001 C CNN
-F 3 "" H 4250 6000 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 4250 6000 60  0001 C CNN "Buy"
-	1    4250 6000
+P 3900 4350
+F 0 "10u1" H 3925 4450 50  0000 L CNN
+F 1 "C8" H 3925 4250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3900 4350 50  0001 C CNN
+F 3 "" H 3900 4350 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 3900 4350 60  0001 C CNN "Buy"
+	1    3900 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 5BE905A8
-P 4600 6000
-F 0 "C5" H 4650 5900 50  0000 L CNN
-F 1 "100n" H 4400 6100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4638 5850 50  0001 C CNN
-F 3 "" H 4600 6000 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-SMD-Thick-Film-Chip-Multilayer-Ceramic-Capacitor/32818383178.html?spm=2114.search0104.3.8.36685b2a9CYmCn&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=0e390b2f-ed58-4752-9c45-00d107da701e-1&algo_pvid=0e390b2f-ed58-4752-9c45-00d107da701e&transAbTest=ae803_2&priceBeautifyAB=0" V 4600 6000 60  0001 C CNN "Buy"
-	1    4600 6000
+P 4250 4350
+F 0 "C5" H 4300 4250 50  0000 L CNN
+F 1 "100n" H 4050 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4288 4200 50  0001 C CNN
+F 3 "" H 4250 4350 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-SMD-Thick-Film-Chip-Multilayer-Ceramic-Capacitor/32818383178.html?spm=2114.search0104.3.8.36685b2a9CYmCn&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=0e390b2f-ed58-4752-9c45-00d107da701e-1&algo_pvid=0e390b2f-ed58-4752-9c45-00d107da701e&transAbTest=ae803_2&priceBeautifyAB=0" V 4250 4350 60  0001 C CNN "Buy"
+	1    4250 4350
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4750 5850 2    60   Input ~ 0
+Text GLabel 4400 4200 2    60   Input ~ 0
 3V3
-Text GLabel 4750 6150 2    50   Input ~ 0
+Text GLabel 4400 4500 2    50   Input ~ 0
 GND
 Wire Notes Line
-	5050 5200 5050 7450
+	4700 3550 4700 5800
 Wire Notes Line
-	900  5200 5050 5200
+	550  3550 4700 3550
 Wire Notes Line
-	900  7450 5050 7450
+	550  5800 4700 5800
 Wire Wire Line
-	3700 5850 4250 5850
-Connection ~ 4250 5850
+	3350 4200 3900 4200
+Connection ~ 3900 4200
 Wire Wire Line
-	4250 5850 4600 5850
+	3900 4200 4250 4200
 Wire Wire Line
-	4250 6150 4600 6150
-Connection ~ 4600 5850
+	3900 4500 4250 4500
+Connection ~ 4250 4200
 Wire Wire Line
-	4600 5850 4750 5850
-Connection ~ 4600 6150
+	4250 4200 4400 4200
+Connection ~ 4250 4500
 Wire Wire Line
-	4600 6150 4750 6150
+	4250 4500 4400 4500
 $Comp
 L Connector:Screw_Terminal_01x03 J2
 U 1 1 5CBC0B24
-P 6250 9300
-F 0 "J2" V 6350 9350 50  0000 L CNN
-F 1 "AC1" V 6350 9150 50  0000 L CNN
-F 2 "ublink:KF301-5.0-3P" H 6250 9300 50  0001 C CNN
-F 3 "~" H 6250 9300 50  0001 C CNN
-	1    6250 9300
+P 5400 8700
+F 0 "J2" V 5500 8750 50  0000 L CNN
+F 1 "AC1" V 5500 8550 50  0000 L CNN
+F 2 "ublink:KF301-5.0-3P" H 5400 8700 50  0001 C CNN
+F 3 "~" H 5400 8700 50  0001 C CNN
+	1    5400 8700
 	0    1    1    0   
 $EndComp
 $Comp
 L ublink:KF301-5.0-2P J3
 U 1 1 5B3B75D8
-P 1300 2100
-F 0 "J3" H 1300 2200 50  0000 C CNN
-F 1 "5V Trafo" H 1200 1900 50  0000 C CNN
-F 2 "KF301-5.0-2P" H 1300 2100 50  0001 C CNN
-F 3 "" H 1300 2100 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/Free-Shipping-20pcs-KF301-2P-KF301-3P-KF301-5-0-2P-KF301-5-0-3P-KF301/32842649327.html?spm=2114.search0104.3.8.1e65717bdbkqzd&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10151_10065_10321_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=a693aa3d-2094-478e-8003-6c6a0d3dfaae-1&algo_pvid=a693aa3d-2094-478e-8003-6c6a0d3dfaae&transAbTest=ae803_2&priceBeautifyAB=0" H 1300 2100 60  0001 C CNN "Buy"
-	1    1300 2100
+P 700 1400
+F 0 "J3" H 700 1500 50  0000 C CNN
+F 1 "5V Trafo" H 600 1200 50  0000 C CNN
+F 2 "KF301-5.0-2P" H 700 1400 50  0001 C CNN
+F 3 "" H 700 1400 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/Free-Shipping-20pcs-KF301-2P-KF301-3P-KF301-5-0-2P-KF301-5-0-3P-KF301/32842649327.html?spm=2114.search0104.3.8.1e65717bdbkqzd&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10151_10065_10321_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=a693aa3d-2094-478e-8003-6c6a0d3dfaae-1&algo_pvid=a693aa3d-2094-478e-8003-6c6a0d3dfaae&transAbTest=ae803_2&priceBeautifyAB=0" H 700 1400 60  0001 C CNN "Buy"
+	1    700  1400
 	-1   0    0    1   
 $EndComp
-Text GLabel 6100 9050 0    60   Input ~ 0
+Text GLabel 5250 8450 0    60   Input ~ 0
 AC_SAFE
 Wire Notes Line
-	5450 7350 8200 7350
+	4600 6750 7350 6750
 Wire Wire Line
-	6250 8900 6300 8900
+	5400 8300 5450 8300
 Wire Wire Line
-	6250 9100 6250 8900
+	5400 8500 5400 8300
 Wire Wire Line
-	6350 9050 6350 9100
+	5500 8450 5500 8500
 Wire Wire Line
-	6350 8050 6350 8000
+	5500 7450 5500 7400
 $Comp
 L Connector:Screw_Terminal_01x03 J9
 U 1 1 5BCAB3AD
@@ -887,112 +886,112 @@ Wire Wire Line
 Wire Wire Line
 	12950 4350 13000 4350
 Wire Wire Line
-	6250 8900 6250 8750
+	5400 8300 5400 8150
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5CBD300E
-P 14750 7850
-F 0 "H1" V 14700 8000 50  0000 L CNN
-F 1 "MountingHole" V 14800 8000 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 14750 7850 50  0001 C CNN
-F 3 "~" H 14750 7850 50  0001 C CNN
-	1    14750 7850
+P 1500 9800
+F 0 "H1" V 1450 9950 50  0000 L CNN
+F 1 "MountingHole" V 1550 9950 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 1500 9800 50  0001 C CNN
+F 3 "~" H 1500 9800 50  0001 C CNN
+	1    1500 9800
 	0    1    -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5CCF916C
-P 14750 8050
-F 0 "H2" V 14700 8200 50  0000 L CNN
-F 1 "MountingHole" V 14800 8200 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 14750 8050 50  0001 C CNN
-F 3 "~" H 14750 8050 50  0001 C CNN
-	1    14750 8050
+P 1500 10000
+F 0 "H2" V 1450 10150 50  0000 L CNN
+F 1 "MountingHole" V 1550 10150 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 1500 10000 50  0001 C CNN
+F 3 "~" H 1500 10000 50  0001 C CNN
+	1    1500 10000
 	0    1    -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5CCF91F8
-P 14800 8250
-F 0 "H3" V 14750 8350 50  0000 L CNN
-F 1 "MountingHole" V 14850 8350 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm" H 14800 8250 50  0001 C CNN
-F 3 "~" H 14800 8250 50  0001 C CNN
-	1    14800 8250
+P 1550 10200
+F 0 "H3" V 1500 10300 50  0000 L CNN
+F 1 "MountingHole" V 1600 10300 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 1550 10200 50  0001 C CNN
+F 3 "~" H 1550 10200 50  0001 C CNN
+	1    1550 10200
 	0    1    -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5CCF928A
-P 14750 8450
-F 0 "H4" V 14700 8600 50  0000 L CNN
-F 1 "MountingHole" V 14800 8600 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 14750 8450 50  0001 C CNN
-F 3 "~" H 14750 8450 50  0001 C CNN
-	1    14750 8450
+P 1500 10400
+F 0 "H4" V 1450 10550 50  0000 L CNN
+F 1 "MountingHole" V 1550 10550 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 1500 10400 50  0001 C CNN
+F 3 "~" H 1500 10400 50  0001 C CNN
+	1    1500 10400
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	14650 8450 14600 8450
+	1400 10400 1350 10400
 Wire Wire Line
-	14600 7850 14650 7850
+	1350 9800 1400 9800
 Wire Wire Line
-	14650 8050 14600 8050
-Connection ~ 14600 8050
+	1400 10000 1350 10000
+Connection ~ 1350 10000
 Wire Wire Line
-	14600 8050 14600 7850
-Text GLabel 14550 7850 0    50   Input ~ 0
+	1350 10000 1350 9800
+Text GLabel 1300 9800 0    50   Input ~ 0
 AC_SAFE
 Wire Wire Line
-	14550 7850 14600 7850
-Connection ~ 14600 7850
+	1300 9800 1350 9800
+Connection ~ 1350 9800
 Wire Wire Line
-	1600 6650 1600 6350
-Connection ~ 1600 6350
+	1250 5000 1250 4700
+Connection ~ 1250 4700
 Wire Wire Line
-	1600 6350 2700 6350
+	1250 4700 2350 4700
 Wire Wire Line
-	1700 6650 1700 6250
-Connection ~ 1700 6250
+	1350 5000 1350 4600
+Connection ~ 1350 4600
 Wire Wire Line
-	1700 6250 2700 6250
+	1350 4600 2350 4600
 Wire Wire Line
-	1250 6700 1250 6650
+	900  5050 900  5000
 Wire Wire Line
-	1150 6800 1150 6700
-Connection ~ 1150 6700
-NoConn ~ 6350 8750
-NoConn ~ 6350 8000
+	800  5150 800  5050
+Connection ~ 800  5050
+NoConn ~ 5500 8150
+NoConn ~ 5500 7400
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5D0C8D7B
-P 1600 6650
-F 0 "TP1" H 1600 6900 50  0000 R CNN
-F 1 "TestPoint" H 1543 6767 50  0001 R CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6650 50  0001 C CNN
-F 3 "~" H 1800 6650 50  0001 C CNN
-	1    1600 6650
+P 1250 5000
+F 0 "TP1" H 1250 5250 50  0000 R CNN
+F 1 "TestPoint" H 1193 5117 50  0001 R CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1450 5000 50  0001 C CNN
+F 3 "~" H 1450 5000 50  0001 C CNN
+	1    1250 5000
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5D0C335A
-P 1700 6650
-F 0 "TP2" H 1700 6900 50  0000 R CNN
-F 1 "TestPoint" H 1900 6750 50  0001 R CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 6650 50  0001 C CNN
-F 3 "~" H 1900 6650 50  0001 C CNN
-	1    1700 6650
+P 1350 5000
+F 0 "TP2" H 1350 5250 50  0000 R CNN
+F 1 "TestPoint" H 1550 5100 50  0001 R CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1550 5000 50  0001 C CNN
+F 3 "~" H 1550 5000 50  0001 C CNN
+	1    1350 5000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2050 5850 2700 5850
-Text GLabel 2650 6150 0    50   Input ~ 0
+	1700 4200 2350 4200
+Text GLabel 2300 4500 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	2650 6150 2700 6150
+	2300 4500 2350 4500
 Wire Wire Line
-	14600 8050 14600 8450
+	1350 10000 1350 10400
 $Comp
 L Device:D_Zener D1
 U 1 1 5B3CB3FE
@@ -1042,70 +1041,30 @@ $EndComp
 $Comp
 L Device:R R5
 U 1 1 5BCF45D9
-P 5650 5150
-F 0 "R5" H 5720 5196 50  0000 L CNN
-F 1 "10k" H 5720 5105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 5150 50  0001 C CNN
-F 3 "~" H 5650 5150 50  0001 C CNN
-	1    5650 5150
+P 9550 7400
+F 0 "R5" H 9620 7446 50  0000 L CNN
+F 1 "10k" H 9620 7355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9480 7400 50  0001 C CNN
+F 3 "~" H 9550 7400 50  0001 C CNN
+	1    9550 7400
 	1    0    0    -1  
 $EndComp
-$Comp
-L bb-ch340t-cache:C C4
-U 1 1 5BCF46BC
-P 7500 5900
-F 0 "C4" H 7615 5976 50  0000 L CNN
-F 1 "0.1u" H 7615 5885 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7615 5809 30  0000 L CNN
-F 3 "" H 7500 5900 60  0000 C CNN
-F 4 "https://www.aliexpress.com/item/MCIGICM-100pcs-0805-smd-capacitor-ceramic-22pf-100nf-1uf-2-2uf-4-7uf-10uf-47uf-22uf/32842027469.html?spm=2114.search0104.3.2.cd3225526jDlJq&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=dd54813c-bbda-4929-879b-3f009bd3f769-0&algo_pvid=dd54813c-bbda-4929-879b-3f009bd3f769" H 7500 5900 50  0001 C CNN "Buy"
-	1    7500 5900
-	1    0    0    -1  
-$EndComp
-Text GLabel 5650 6650 3    50   Input ~ 0
+Text GLabel 9550 8900 3    50   Input ~ 0
 GND
-Connection ~ 7500 5400
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5D1B0321
-P 5650 6000
-F 0 "SW2" V 5550 6200 50  0000 C CNN
-F 1 "SW_Push" V 5350 6000 50  0001 C CNN
-F 2 "ublink:pushbutton_2" H 5650 6200 50  0001 C CNN
-F 3 "" H 5650 6200 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/50pcs-Lot-Micro-SMD-Side-key-Push-Button-switch-2-4-3-5mm-2-4-3/32715236709.html?spm=2114.search0104.3.151.6f7015565OJKGV&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5-22&algo_pvid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5" H 5650 6000 50  0001 C CNN "Buy"
-	1    5650 6000
+P 9550 8250
+F 0 "SW2" V 9450 8450 50  0000 C CNN
+F 1 "SW_Push" V 9250 8250 50  0001 C CNN
+F 2 "ublink:pushbutton_2" H 9550 8450 50  0001 C CNN
+F 3 "" H 9550 8450 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/50pcs-Lot-Micro-SMD-Side-key-Push-Button-switch-2-4-3-5mm-2-4-3/32715236709.html?spm=2114.search0104.3.151.6f7015565OJKGV&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5-22&algo_pvid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5" H 9550 8250 50  0001 C CNN "Buy"
+	1    9550 8250
 	0    -1   1    0   
 $EndComp
-Text GLabel 7600 5400 2    50   Input ~ 0
-EN
-Wire Wire Line
-	7500 3100 7600 3100
-Text GLabel 7600 3100 2    50   Input ~ 0
-FLASH
-Text Notes 4500 2700 0    50   ~ 0
-Boot mode\n(IC can be flashed via UART0\nwhen this is pressed)
-Text GLabel 5000 2400 2    50   Input ~ 0
-GND
-Wire Wire Line
-	5450 2000 5650 2000
-Text GLabel 5450 2000 0    50   Input ~ 0
-EN
-Connection ~ 4950 1600
 Wire Wire Line
 	4950 1600 4700 1600
-$Comp
-L Device:C 10u2
-U 1 1 5BF9828F
-P 5300 1750
-F 0 "10u2" H 5325 1850 50  0000 L CNN
-F 1 "C7" H 5325 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5300 1750 50  0001 C CNN
-F 3 "" H 5300 1750 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 5300 1750 60  0001 C CNN "Buy"
-	1    5300 1750
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:C C6
 U 1 1 5BF98296
@@ -1118,173 +1077,291 @@ F 4 "https://www.aliexpress.com/item/300PCS-LOT-10pf-Error-10-50V-100-10PF-0805-
 	1    4950 1750
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4950 1600 5300 1600
-Wire Wire Line
-	4950 1900 5300 1900
 Text GLabel 4700 1600 0    50   Input ~ 0
 GND
-Wire Wire Line
-	5650 1900 5300 1900
-Connection ~ 5300 1900
-Wire Wire Line
-	5600 1600 5300 1600
-Connection ~ 5300 1600
 Text GLabel 4700 1900 0    50   Input ~ 0
 3V3
 Wire Wire Line
 	4700 1900 4950 1900
-Connection ~ 4950 1900
-Wire Wire Line
-	5600 1600 5600 1800
-Wire Wire Line
-	5650 1800 5600 1800
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J8
 U 1 1 5B7F2686
-P 3550 3700
-F 0 "J8" H 3600 4000 50  0000 C CNN
-F 1 "JTAG/UART" H 3600 3250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 3550 3700 50  0001 C CNN
-F 3 "" H 3550 3700 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/Hot-Sale-10pcs-40-Pin-1x40-Single-Row-Male-2-54mm-Breakable-Pin-Header-Right-Angle/32882291626.html?spm=2114.search0104.3.118.1dd127668tYnR6&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=04557777-6740-4fb3-b880-14b6eb54611e-17&algo_pvid=04557777-6740-4fb3-b880-14b6eb54611e" H 3550 3700 60  0001 C CNN "Buy"
-	1    3550 3700
+P 1850 2600
+F 0 "J8" H 1900 2900 50  0000 C CNN
+F 1 "Pin Header" H 1900 2250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 1850 2600 50  0001 C CNN
+F 3 "" H 1850 2600 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/Hot-Sale-10pcs-40-Pin-1x40-Single-Row-Male-2-54mm-Breakable-Pin-Header-Right-Angle/32882291626.html?spm=2114.search0104.3.118.1dd127668tYnR6&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=04557777-6740-4fb3-b880-14b6eb54611e-17&algo_pvid=04557777-6740-4fb3-b880-14b6eb54611e" H 1850 2600 60  0001 C CNN "Buy"
+	1    1850 2600
 	-1   0    0    1   
 $EndComp
-NoConn ~ 6350 3500
-NoConn ~ 6650 3500
-NoConn ~ 6550 3500
 Wire Wire Line
-	3150 3500 3250 3500
-Text GLabel 3150 3500 0    50   Input ~ 0
+	1450 2400 1550 2400
+Text GLabel 1450 2400 0    50   Input ~ 0
 5V
 Wire Wire Line
-	3800 3500 3750 3500
+	2100 2400 2050 2400
 Wire Wire Line
-	3750 3600 4050 3600
+	2050 2500 2350 2500
 Wire Wire Line
-	3800 3700 3750 3700
+	2100 2600 2050 2600
 Wire Wire Line
-	3750 3800 3800 3800
-Text Notes 4500 4500 0    50   ~ 0
+	2050 2700 2100 2700
+Text Notes 1300 3200 0    50   ~ 0
 JTAG flash/debug access\n(Pin headers can not be accessed when\nthe board is in it's enclosure)
-Text GLabel 6550 1400 1    60   Input ~ 0
-GND
-NoConn ~ 5650 2100
-NoConn ~ 5650 2200
-NoConn ~ 5650 2300
-NoConn ~ 5650 2400
-NoConn ~ 5650 2500
-NoConn ~ 5650 2600
-NoConn ~ 5650 2700
-NoConn ~ 5650 2800
-NoConn ~ 7500 2300
-NoConn ~ 7500 2400
-NoConn ~ 7500 2600
-NoConn ~ 7500 2700
 $Comp
 L Device:R R1
 U 1 1 5BD59435
-P 3950 3700
-F 0 "R1" V 4000 3850 50  0000 C CNN
-F 1 "100" V 3950 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 3700 50  0001 C CNN
-F 3 "~" H 3950 3700 50  0001 C CNN
-	1    3950 3700
+P 2250 2600
+F 0 "R1" V 2300 2750 50  0000 C CNN
+F 1 "100" V 2250 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 2600 50  0001 C CNN
+F 3 "~" H 2250 2600 50  0001 C CNN
+	1    2250 2600
 	0    1    1    0   
 $EndComp
-Text GLabel 7500 2200 2    50   Input ~ 0
-TX
-Text GLabel 6150 3500 3    50   Input ~ 0
+Text GLabel 2350 2500 2    60   Input ~ 0
 GND
-Text GLabel 7500 1800 2    50   Input ~ 0
-GND
-Text GLabel 7500 1900 2    50   Input ~ 0
-RELAIS_CTRL
-Text GLabel 4050 3600 2    60   Input ~ 0
-GND
-Text GLabel 3800 3500 2    60   Input ~ 0
+Text GLabel 2100 2400 2    60   Input ~ 0
 3V3
-Text GLabel 7500 2500 2    60   Input ~ 0
-RTS
-Text GLabel 7500 2000 2    60   Input ~ 0
-CTS
-Text GLabel 7500 2100 2    60   Input ~ 0
-RX
-Text GLabel 5350 2900 0    60   Input ~ 0
-W_CTRL
-Text GLabel 8050 3000 2    60   Input ~ 0
-B_CTRL
-Text GLabel 7600 2900 2    60   Input ~ 0
-G_CTRL
-Text GLabel 8050 2800 2    60   Input ~ 0
-R_CTRL
 Wire Notes Line
-	5450 10800 8200 10800
+	4600 10200 7350 10200
 Wire Wire Line
-	7500 5400 7500 5750
-Wire Wire Line
-	5650 5800 5650 5400
-Wire Wire Line
-	7500 5400 7600 5400
-Text GLabel 7000 5900 2    50   Input ~ 0
-FLASH
-Text Notes 5350 6100 0    50   ~ 0
+	9550 8050 9550 7650
+Text Notes 9250 8350 0    50   ~ 0
 Reset\n
 Wire Wire Line
-	5650 5300 5650 5400
-Connection ~ 5650 5400
-Text GLabel 5650 4900 1    50   Input ~ 0
+	9550 7550 9550 7650
+Connection ~ 9550 7650
+Text GLabel 9550 7150 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	5650 4900 5650 5000
+	9550 7150 9550 7250
 Wire Wire Line
-	5650 6200 5650 6550
-Connection ~ 5650 6550
+	5450 7250 5400 7250
 Wire Wire Line
-	5650 6550 5650 6650
-Wire Wire Line
-	6300 7850 6250 7850
-Wire Wire Line
-	6100 7850 6150 7850
+	5250 7250 5300 7250
 $Comp
 L ublink:HF115F_005-1ZS3 U3
 U 1 1 5B569D8F
-P 6400 8400
-F 0 "U3" H 5800 8400 60  0000 C CNN
-F 1 "HF115F_005-1ZS3" H 5450 8500 60  0000 C CNN
-F 2 "ublink:HF115F_005-1ZS3" H 6250 8400 60  0001 C CNN
-F 3 "" H 6250 8400 60  0001 C CNN
-F 4 "https://www.aliexpress.com/item/5PCS-Relays-HF115F-JQX-115F-005-1ZS3-JQX-115F-012-1ZS3-JQX-115F-024-1ZS3-JQX/32840281619.html?spm=2114.search0104.3.64.3bb95410mpPKC0&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10151_10065_10321_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=d036724b-03ba-49cf-8ac6-dce8305bfcb2-10&algo_pvid=d036724b-03ba-49cf-8ac6-dce8305bfcb2&transAbTest=ae803_2&priceBeautifyAB=0" H 6400 8400 60  0001 C CNN "Buy"
-	1    6400 8400
+P 5550 7800
+F 0 "U3" H 4950 7800 60  0000 C CNN
+F 1 "HF115F_005-1ZS3" H 4600 7900 60  0000 C CNN
+F 2 "ublink:HF115F_005-1ZS3" H 5400 7800 60  0001 C CNN
+F 3 "" H 5400 7800 60  0001 C CNN
+F 4 "https://www.aliexpress.com/item/5PCS-Relays-HF115F-JQX-115F-005-1ZS3-JQX-115F-012-1ZS3-JQX-115F-024-1ZS3-JQX/32840281619.html?spm=2114.search0104.3.64.3bb95410mpPKC0&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10151_10065_10321_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=d036724b-03ba-49cf-8ac6-dce8305bfcb2-10&algo_pvid=d036724b-03ba-49cf-8ac6-dce8305bfcb2&transAbTest=ae803_2&priceBeautifyAB=0" H 5550 7800 60  0001 C CNN "Buy"
+	1    5550 7800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 7850 6250 8050
+	5400 7250 5400 7450
 Wire Wire Line
-	6150 7850 6150 8050
+	5300 7250 5300 7450
 Wire Wire Line
-	6100 8900 6150 8900
-Connection ~ 6150 8900
+	5250 8300 5300 8300
+Connection ~ 5300 8300
 Wire Wire Line
-	6150 8750 6150 8900
+	5300 8150 5300 8300
 Wire Wire Line
-	6150 9100 6150 8900
+	5300 8500 5300 8300
 Wire Wire Line
-	6350 9050 6100 9050
+	5500 8450 5250 8450
 Wire Wire Line
-	6750 8950 6750 8750
+	5900 8350 5900 8150
 Wire Wire Line
-	6750 9650 6750 9550
+	5900 9050 5900 8950
+Text GLabel 1200 2500 0    50   Input ~ 0
+GND
+$Comp
+L Device:R R2
+U 1 1 5D313C66
+P 1300 2600
+F 0 "R2" V 1350 2750 50  0000 C CNN
+F 1 "100" V 1300 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 2600 50  0001 C CNN
+F 3 "~" H 1300 2600 50  0001 C CNN
+	1    1300 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BD5979F
+P 2250 2700
+F 0 "R3" V 2300 2850 50  0000 C CNN
+F 1 "100" V 2250 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 2700 50  0001 C CNN
+F 3 "~" H 2250 2700 50  0001 C CNN
+	1    2250 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BD598A2
+P 1300 2700
+F 0 "R4" V 1350 2850 50  0000 C CNN
+F 1 "100" V 1300 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 2700 50  0001 C CNN
+F 3 "~" H 1300 2700 50  0001 C CNN
+	1    1300 2700
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	7500 3000 8050 3000
+	1200 2500 1550 2500
+Text GLabel 2650 2600 2    50   Input ~ 0
+MTMS
 Wire Wire Line
-	7500 2800 8050 2800
+	2650 2600 2400 2600
+Text GLabel 950  2600 0    50   Input ~ 0
+MTDI
 Wire Wire Line
-	7500 2900 7600 2900
-NoConn ~ 6750 3500
-NoConn ~ 6850 3500
-NoConn ~ 6450 3500
+	950  2600 1150 2600
+Text GLabel 2650 2700 2    50   Input ~ 0
+MTCK
+Wire Wire Line
+	2400 2700 2650 2700
+Text GLabel 950  2700 0    50   Input ~ 0
+MTDO
+Wire Wire Line
+	950  2700 1150 2700
+Wire Wire Line
+	1450 2700 1550 2700
+Wire Wire Line
+	1550 2600 1450 2600
+Text GLabel 2500 2800 2    50   Input ~ 0
+FLASH
+Wire Wire Line
+	2500 2800 2050 2800
+Text GLabel 1200 2800 0    60   Input ~ 0
+GND
+Wire Wire Line
+	1200 2800 1550 2800
+$Comp
+L Device:D D5
+U 1 1 5D66F5B7
+P 11250 7900
+F 0 "D5" H 11250 7750 50  0000 C CNN
+F 1 "D" H 11250 8050 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 11250 7900 50  0001 C CNN
+F 3 "~" H 11250 7900 50  0001 C CNN
+	1    11250 7900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 7650 11250 7650
+Wire Wire Line
+	11250 8150 11250 8050
+Connection ~ 11250 8150
+Wire Wire Line
+	11250 7750 11250 7650
+Connection ~ 11250 7650
+Wire Wire Line
+	9550 8800 9550 8900
+Wire Wire Line
+	9550 8450 9550 8800
+Connection ~ 9550 8800
+Wire Wire Line
+	11250 8800 12050 8800
+Connection ~ 11250 8800
+Wire Wire Line
+	11250 8650 11250 8800
+Wire Wire Line
+	11250 8350 11250 8150
+$Comp
+L Device:CP1 2u2
+U 1 1 5D73FD0A
+P 11250 8500
+F 0 "2u2" H 11275 8600 50  0000 L CNN
+F 1 "CP2" H 11275 8400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11250 8500 50  0001 C CNN
+F 3 "" H 11250 8500 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 11250 8500 60  0001 C CNN "Buy"
+	1    11250 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 8800 12050 8300
+Wire Wire Line
+	11250 7650 12050 7650
+Text GLabel 11500 8150 2    50   Input ~ 0
+FLASH
+Wire Wire Line
+	12050 7650 12150 7650
+Wire Wire Line
+	12050 7650 12050 8000
+Text GLabel 12150 7650 2    50   Input ~ 0
+EN
+Connection ~ 12050 7650
+$Comp
+L bb-ch340t-cache:C C4
+U 1 1 5BCF46BC
+P 12050 8150
+F 0 "C4" H 12165 8226 50  0000 L CNN
+F 1 "0.1u" H 12165 8135 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 12165 8059 30  0000 L CNN
+F 3 "" H 12050 8150 60  0000 C CNN
+F 4 "https://www.aliexpress.com/item/MCIGICM-100pcs-0805-smd-capacitor-ceramic-22pf-100nf-1uf-2-2uf-4-7uf-10uf-47uf-22uf/32842027469.html?spm=2114.search0104.3.2.cd3225526jDlJq&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=dd54813c-bbda-4929-879b-3f009bd3f769-0&algo_pvid=dd54813c-bbda-4929-879b-3f009bd3f769" H 12050 8150 50  0001 C CNN "Buy"
+	1    12050 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 8150 11250 8150
+Wire Wire Line
+	10900 8250 10900 8150
+Wire Wire Line
+	10900 8800 11250 8800
+Connection ~ 10900 8800
+Wire Wire Line
+	10900 8800 10900 8650
+Wire Wire Line
+	9550 8800 10900 8800
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5BCBFD11
+P 10900 8450
+F 0 "SW1" V 11000 8600 50  0000 C CNN
+F 1 "SW_Push" H 10900 8350 50  0001 C CNN
+F 2 "ublink:pushbutton_2" H 10900 8650 50  0001 C CNN
+F 3 "" H 10900 8650 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/50pcs-Lot-Micro-SMD-Side-key-Push-Button-switch-2-4-3-5mm-2-4-3/32715236709.html?spm=2114.search0104.3.151.6f7015565OJKGV&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5-22&algo_pvid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5" H 10900 8450 50  0001 C CNN "Buy"
+	1    10900 8450
+	0    -1   -1   0   
+$EndComp
+Text Notes 10600 8550 0    50   ~ 0
+Flash
+Wire Notes Line
+	9150 6750 9150 9150
+Text Notes 12000 6900 0    60   ~ 12
+FLASH/RESET SELECT\n
+Wire Notes Line
+	600  2050 3150 2050
+Wire Notes Line
+	3150 2050 3150 3350
+Wire Notes Line
+	600  2050 600  3350
+Wire Notes Line
+	600  3350 3150 3350
+Text Notes 2550 2300 0    60   ~ 12
+PIN HEADER\n\n
+Connection ~ 4950 1900
+Connection ~ 4950 1600
+Wire Wire Line
+	6950 3500 6950 3600
+Wire Wire Line
+	6250 3750 6250 3500
+Text GLabel 6250 3750 3    50   Input ~ 0
+MTCK
+Wire Wire Line
+	5300 3100 5650 3100
+Wire Wire Line
+	5650 3000 5600 3000
+Text GLabel 5600 3000 0    50   Input ~ 0
+MTMS
+Text GLabel 6950 3600 3    50   Input ~ 0
+MTDO
+Text GLabel 5300 3100 0    50   Input ~ 0
+MTDI
+Wire Wire Line
+	5350 2900 5650 2900
 $Comp
 L ublink:ESP32-WROOM-32U U4
 U 1 1 5BCB0DD2
@@ -1297,157 +1374,125 @@ F 4 "https://www.ebay.de/itm/ThingMatic-3-er-Set-ESP32-Modul-Dual-Core-32-Mbits-
 	1    6550 2350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6450 3500
+NoConn ~ 6850 3500
+NoConn ~ 6750 3500
 Wire Wire Line
-	5350 2900 5650 2900
-Text GLabel 2900 3600 0    50   Input ~ 0
+	7500 2900 7600 2900
+Wire Wire Line
+	7500 2800 8050 2800
+Wire Wire Line
+	7500 3000 8050 3000
+Text GLabel 8050 2800 2    60   Input ~ 0
+R_CTRL
+Text GLabel 7600 2900 2    60   Input ~ 0
+G_CTRL
+Text GLabel 8050 3000 2    60   Input ~ 0
+B_CTRL
+Text GLabel 5350 2900 0    60   Input ~ 0
+W_CTRL
+Text GLabel 7500 2100 2    60   Input ~ 0
+RX
+Text GLabel 7500 2000 2    60   Input ~ 0
+CTS
+Text GLabel 7500 2500 2    60   Input ~ 0
+RTS
+Text GLabel 7500 1900 2    50   Input ~ 0
+RELAIS_CTRL
+Text GLabel 7500 1800 2    50   Input ~ 0
 GND
+Text GLabel 6150 3500 3    50   Input ~ 0
+GND
+Text GLabel 7500 2200 2    50   Input ~ 0
+TX
+NoConn ~ 7500 2700
+NoConn ~ 7500 2600
+NoConn ~ 7500 2400
+NoConn ~ 7500 2300
+NoConn ~ 5650 2800
+NoConn ~ 5650 2700
+NoConn ~ 5650 2600
+NoConn ~ 5650 2500
+NoConn ~ 5650 2400
+NoConn ~ 5650 2300
+NoConn ~ 5650 2200
+NoConn ~ 5650 2100
+Text GLabel 6550 1400 1    60   Input ~ 0
+GND
+NoConn ~ 6550 3500
+NoConn ~ 6650 3500
+NoConn ~ 6350 3500
+Wire Wire Line
+	5650 1800 5600 1800
+Wire Wire Line
+	5600 1600 5600 1800
+Connection ~ 5300 1600
+Wire Wire Line
+	5600 1600 5300 1600
+Connection ~ 5300 1900
+Wire Wire Line
+	5650 1900 5300 1900
+Wire Wire Line
+	4950 1900 5300 1900
+Wire Wire Line
+	4950 1600 5300 1600
 $Comp
-L Device:R R2
-U 1 1 5D313C66
-P 3000 3700
-F 0 "R2" V 3050 3850 50  0000 C CNN
-F 1 "100" V 3000 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2930 3700 50  0001 C CNN
-F 3 "~" H 3000 3700 50  0001 C CNN
-	1    3000 3700
-	0    1    1    0   
+L Device:C 10u2
+U 1 1 5BF9828F
+P 5300 1750
+F 0 "10u2" H 5325 1850 50  0000 L CNN
+F 1 "C7" H 5325 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5300 1750 50  0001 C CNN
+F 3 "" H 5300 1750 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 5300 1750 60  0001 C CNN "Buy"
+	1    5300 1750
+	-1   0    0    1   
 $EndComp
-Text GLabel 5300 3100 0    50   Input ~ 0
-MTDI
-$Comp
-L Device:R R3
-U 1 1 5BD5979F
-P 3950 3800
-F 0 "R3" V 4000 3950 50  0000 C CNN
-F 1 "100" V 3950 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 3800 50  0001 C CNN
-F 3 "~" H 3950 3800 50  0001 C CNN
-	1    3950 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5BD598A2
-P 3000 3800
-F 0 "R4" V 3050 3950 50  0000 C CNN
-F 1 "100" V 3000 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2930 3800 50  0001 C CNN
-F 3 "~" H 3000 3800 50  0001 C CNN
-	1    3000 3800
-	0    1    1    0   
-$EndComp
-Text GLabel 6950 3600 3    50   Input ~ 0
-MTDO
-Text GLabel 5600 3000 0    50   Input ~ 0
-MTMS
+Text GLabel 5450 2000 0    50   Input ~ 0
+EN
 Wire Wire Line
-	5650 3000 5600 3000
-Wire Wire Line
-	5300 3100 5650 3100
-Wire Wire Line
-	2900 3600 3250 3600
-Text GLabel 6250 3750 3    50   Input ~ 0
-MTCK
-Wire Wire Line
-	6250 3750 6250 3500
-Wire Wire Line
-	6950 3500 6950 3600
-Text GLabel 4350 3700 2    50   Input ~ 0
-MTMS
-Wire Wire Line
-	4350 3700 4100 3700
-Text GLabel 2650 3700 0    50   Input ~ 0
-MTDI
-Wire Wire Line
-	2650 3700 2850 3700
-Text GLabel 4350 3800 2    50   Input ~ 0
-MTCK
-Wire Wire Line
-	4100 3800 4350 3800
-Text GLabel 2650 3800 0    50   Input ~ 0
-MTDO
-Wire Wire Line
-	2650 3800 2850 3800
-Wire Wire Line
-	3150 3800 3250 3800
-Wire Wire Line
-	3250 3700 3150 3700
-Text GLabel 4200 3900 2    50   Input ~ 0
+	5450 2000 5650 2000
+Text Notes 4500 2700 0    50   ~ 0
+Boot mode\n(IC can be flashed via UART0\nwhen this is pressed)
+Text GLabel 7600 3100 2    50   Input ~ 0
 FLASH
 Wire Wire Line
-	4200 3900 3750 3900
-Text GLabel 2900 3900 0    60   Input ~ 0
-GND
+	7500 3100 7600 3100
 Wire Wire Line
-	2900 3900 3250 3900
-Text Notes 6200 6350 0    50   ~ 0
-Flash\n
+	11250 8150 11500 8150
+Text GLabel 10300 8900 3    50   Input ~ 0
+RTS
+Wire Wire Line
+	10300 8900 10300 8650
+Wire Wire Line
+	10900 8150 10300 8150
+Wire Wire Line
+	10300 8150 10300 8250
+Connection ~ 10900 8150
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5BCBFD11
-P 6500 6250
-F 0 "SW1" V 6600 6400 50  0000 C CNN
-F 1 "SW_Push" H 6500 6150 50  0001 C CNN
-F 2 "ublink:pushbutton_2" H 6500 6450 50  0001 C CNN
-F 3 "" H 6500 6450 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/50pcs-Lot-Micro-SMD-Side-key-Push-Button-switch-2-4-3-5mm-2-4-3/32715236709.html?spm=2114.search0104.3.151.6f7015565OJKGV&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_318_10547_319_10548_317_10696_450_10084_10083_10618_452_535_534_10304_533_10307_10820_532_10821_10302_204_10059_10884_323_10887_100031_10319_320_321_322_10103_448_449,searchweb201603_1,ppcSwitch_0&algo_expid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5-22&algo_pvid=c0f77909-caf6-4c88-b6e1-19e5f7b5d6e5" H 6500 6250 50  0001 C CNN "Buy"
-	1    6500 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5D66F5B7
-P 6500 5650
-F 0 "D5" H 6500 5500 50  0000 C CNN
-F 1 "D" H 6500 5800 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6500 5650 50  0001 C CNN
-F 3 "~" H 6500 5650 50  0001 C CNN
-	1    6500 5650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5650 5400 6500 5400
-Wire Wire Line
-	5650 6550 6500 6550
-Wire Wire Line
-	6500 6550 6500 6450
-Wire Wire Line
-	6500 6050 6500 5900
-Wire Wire Line
-	6500 5900 6800 5900
-Wire Wire Line
-	6500 5900 6500 5800
-Connection ~ 6500 5900
-Wire Wire Line
-	6500 5500 6500 5400
-Connection ~ 6500 5400
-Wire Wire Line
-	6500 5400 7500 5400
-Wire Wire Line
-	6500 6550 6800 6550
-Wire Wire Line
-	7500 6550 7500 6050
-Connection ~ 6500 6550
-$Comp
-L Device:CP1 2u2
-U 1 1 5D73FD0A
-P 6800 6250
-F 0 "2u2" H 6825 6350 50  0000 L CNN
-F 1 "CP2" H 6825 6150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6800 6250 50  0001 C CNN
-F 3 "" H 6800 6250 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/100pcs-SMD-tantalum-capacitor-100UF-6-3V-B-3528-TEESVB20J107M8R/1750026411.html?spm=2114.search0104.3.76.56db11deO5PfxQ&ws_ab_test=searchweb0_0,searchweb201602_1_10152_10151_10065_10344_10068_10342_10343_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_10302_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_1,ppcSwitch_7&algo_expid=7e37d227-6224-46d9-90e8-098e41c84535-12&algo_pvid=7e37d227-6224-46d9-90e8-098e41c84535&transAbTest=ae803_2&priceBeautifyAB=0" H 6800 6250 60  0001 C CNN "Buy"
-	1    6800 6250
+L ublink:STN3NF06L Q6
+U 1 1 5DC0DAAA
+P 10200 8450
+F 0 "Q6" V 10550 8250 50  0000 L CNN
+F 1 "STN3NF06L" V 10450 8250 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 10400 8375 50  0001 L CIN
+F 3 "" H 10200 8450 50  0001 L CNN
+F 4 "https://www.aliexpress.com/item/STN3NF06L-3NF06L-SOT223-Original-authentic-and-new-in-stock-Free-Shipping-IC/32446665165.html?spm=2114.search0104.3.53.f913334dUIO65e&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10843_10059_10884_10548_10887_10696_100031_10319_10084_10083_10103_10618_10304_10307_10820_10821_10302,searchweb201603_1,ppcSwitch_0&algo_expid=a75528cf-7ad2-4e5c-b83d-4323b3650f57-8&algo_pvid=a75528cf-7ad2-4e5c-b83d-4323b3650f57&priceBeautifyAB=0" V 10200 8450 50  0001 C CNN "Buy"
+	1    10200 8450
 	1    0    0    -1  
 $EndComp
+Text GLabel 9900 8450 0    50   Input ~ 0
+DTR
 Wire Wire Line
-	6800 6100 6800 5900
-Connection ~ 6800 5900
+	9900 8450 10000 8450
+Wire Notes Line
+	13050 9150 13050 6750
+Wire Notes Line
+	9150 9150 13050 9150
+Wire Notes Line
+	9150 6750 13050 6750
+Text GLabel 3650 4500 2    50   Input ~ 0
+DTR
 Wire Wire Line
-	6800 5900 7000 5900
-Wire Wire Line
-	6800 6400 6800 6550
-Connection ~ 6800 6550
-Wire Wire Line
-	6800 6550 7500 6550
+	3650 4500 3350 4500
 $EndSCHEMATC
