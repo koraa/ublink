@@ -5,15 +5,23 @@
 namespace ublink {
 
 void console_driver::relais_get() {
-  println("Relais is ", relais.powered() ? "on" : "off");
+  println("Relais is ", relais.get() ? "on" : "off");
 }
 
 void console_driver::relais_on() {
-  relais.powered(true);
+  relais.set(true);
 }
 
 void console_driver::relais_off() {
-  relais.powered(false);
+  relais.set(false);
+}
+
+void console_driver::reset() {
+  ::ublink::reset();
+}
+
+void console_driver::reset_uart_download() {
+  ::ublink::reset_uart_download();
 }
 
 }

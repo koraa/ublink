@@ -4,3 +4,6 @@
 [submodule "hardware/vendor/kicad-ESP8266"]
 	path = hardware/vendor/kicad-ESP8266
 	url = https://github.com/jdunmire/kicad-ESP8266
+[submodule "firmware/vendor/args/args"]
+	path = firmware/vendor/args/args
+	url = https://github.com/Taywee/args

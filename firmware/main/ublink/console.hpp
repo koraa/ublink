@@ -1,12 +1,13 @@
 #pragma once
-#include "esp_system.h"
-#include "esp_console.h"
-#include "esp_vfs_dev.h"
-#include "linenoise/linenoise.h"
-#include "argtable3/argtable3.h"
-#include "driver/uart.h"
-#include "esp_vfs_fat.h"
-#include <ublink/print.hpp>
+#include <esp_system.h>
+#include <esp_console.h>
+#include <esp_vfs_dev.h>
+#include <linenoise/linenoise.h>
+#include <argtable3/argtable3.h>
+#include <driver/uart.h>
+#include <esp_vfs_dev.h>
+#include <args.hxx>
+#include "ublink/print.hpp"
 
 namespace ublink {
 
@@ -32,6 +33,29 @@ public:
     linenoiseHistorySetMaxLen(100);
   }
 
+  commands<
+    command<
+      "relais",
+      "Get and set"
+      arg<int>,
+      flag<'v', "verbose", string_view>
+      opt<'f', "file">
+
+  class command {
+    const char *name;
+    const char *help;
+    const char *options;
+    const char *arguments;
+  }
+
+  args::ArgumentParser p("µblink");
+  args::Group commands(p, "commands");
+  args::Command commit(commands, "commit", "record changes to the repository");
+  args::Group arguments(p, "arguments", args::Group::Validators::DontCare, args::Options::Global);
+  args::ValueFlag<std::string> gitdir(arguments, "path", "", {"git-dir"});
+  args::HelpFlag h(arguments, "help", "help", {'h', "help"});
+  args::PositionalList<std::string> pathsList(arguments, "paths", "files to commit");
+
   void tick() {
     char* lineptr = linenoise("ublink $ ");
     if (lineptr == nullptr)
@@ -46,6 +70,10 @@ public:
       relais_on();
     else if (line == "relais off")
       relais_off();
+    else if (line == "reset")
+      reset();
+    else if (line == "reset uart_download")
+      reset_uart_download();
     else
       println("No such command `", line, "`");
 
@@ -56,9 +84,13 @@ public:
 
   // Commands
 
+  args::Command add(commands, "relais", "Read/Write the relais");
+
   void relais_get();
   void relais_on();
   void relais_off();
+  void reset();
+  void reset_uart_download();
 };
 
 }

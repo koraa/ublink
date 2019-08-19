@@ -3,7 +3,7 @@
 #include <tuple>
 #include "ublink/console.hpp"
 #include "ublink/time.hpp"
-#include "ublink/relais.hpp"
+#include "ublink/gpio.hpp"
 #include "ublink/led.hpp"
 
 namespace ublink {
@@ -31,17 +31,25 @@ namespace ublink {
 #endif
 
 
-STORAGE console_driver console;
 STORAGE time_driver time;
-STORAGE relais_driver relais INIT(GPIO_NUM_23);
+STORAGE gpio_out relais INIT(GPIO_NUM_23, false);
 STORAGE led_timer_driver led_timer INIT(LEDC_TIMER_0, LEDC_TIMER_12_BIT, 10000);
 STORAGE led_pwm_driver led_r INIT(led_timer, LEDC_CHANNEL_0, GPIO_NUM_2);
+STORAGE console_driver console;
 
 #undef STORAGE
 #undef INIT
 
 inline auto drivers() {
   return std::tie(console, time, relais, led_timer, led_r);
+}
+
+inline void reset() {
+  esp_restart();
+}
+
+inline void reset_uart_download() {
+  gpio_out boot_reset_pin{GPIO_NUM_0, 0};
 }
 
 }
